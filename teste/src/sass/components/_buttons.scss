@@ -1,0 +1,16 @@
+.btn-card {
+    color: #fff;
+    background-color: $bg-button;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.btn-card:hover {
+    opacity: 98%;
+}
+
+.btn-card:focus {
+    background-color: #494949;
+  
+}

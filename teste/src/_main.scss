@@ -1,0 +1,73 @@
+body, .card {
+    background-color: $neutra01;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+.header {
+    background-color: #fff;
+}
+.btn-grey {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #bbbbbb34 ;
+    border: solid 1px rgba(255, 255, 255, 0.404);
+    border-radius: 7px;
+}
+
+.btn-grey:hover {
+    opacity: 70%;
+    color: #fff;
+    transition: .1s;
+}
+
+.carousel-home {
+    margin-top: -20px;
+}
+
+.carousel-home .carousel-caption {
+    padding-bottom: 180px;
+}
+
+.carousel-home .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $primary;
+}
+
+.carousel-text {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.bg-image {
+    background-image: url(../images/background-cartao.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.section-image {
+    background-color: rgba(92, 92, 92, 0.534);
+    padding: 150px 150px;
+    margin-bottom: 50px;
+}
+
+.underscore-title {
+    width: 25px;
+    height: 1px;
+    border: solid 2px black;
+
+}
+
+.text-gradiente {
+    background-image: linear-gradient(to left, $primary, $primary, $primary, $primary, $primary, $primary, $primary, $secondary);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

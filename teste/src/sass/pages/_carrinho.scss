@@ -1,0 +1,11 @@
+.bg-neutro {
+    background-color: #fff;
+}
+
+.table>:not(:first-child) {
+    border-top: none;
+}
+
+.table-carrinho th, .table-carrinho td {
+    padding: 30px 10px;
+}

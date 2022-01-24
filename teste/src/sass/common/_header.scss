@@ -1,0 +1,24 @@
+header {
+    margin-bottom: 20px;
+}
+
+.search-area, .search-area input {
+    background-color: #F2F2F5
+    ;
+    border: none;
+    color: #494949;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.navbar .nav-item .nav-link {
+    color: #979696;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: $primary;
+    border-bottom: 3px solid $primary;
+    transition: .2s;
+}

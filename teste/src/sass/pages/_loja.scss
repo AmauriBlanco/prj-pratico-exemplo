@@ -1,0 +1,20 @@
+.page-link, .page-item{
+    background-color: #F2F2F5;
+    color: #CBCED1;
+    border-radius: 5px;
+}
+
+.filter-page {
+    margin-left: 50px;
+    margin-right:200px;
+    margin-bottom: 0;
+}
+
+
+@media(max-width: 991.98px) {
+    .filter-page {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    } 
+}

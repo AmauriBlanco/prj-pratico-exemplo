@@ -1,0 +1,29 @@
+.bg-alert-blue {
+    background-color: $blue;
+    padding: 0;
+}
+
+.bg-alert-blue p, .bg-alert-blue i {
+    margin: 20px 0;
+}
+
+.bg-alert-blue, .bg-alert-blue a {
+    color: #3D5DB1;
+}
+
+.blue-bar {
+    background-color: #5C82E6;
+    height: auto;
+    width: 15px;
+    display: inline-block;
+}
+
+.cadastro-section {
+    margin-bottom: 150px;
+}
+
+@media(max-width: 991.98px) {
+    .cadastro-section {
+        margin-bottom: 50px;
+    }
+}
