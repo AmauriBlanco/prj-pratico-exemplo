@@ -6,6 +6,10 @@ tr td {
     vertical-align: middle;
 } 
 
+.table-carrinho {
+    border-radius: 15px;
+}
+
 .table>:not(:first-child) {
     border-top: none;
 }

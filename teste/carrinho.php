@@ -15,9 +15,9 @@
         <div class="underscore-title mb-5"></div>
 
         <div>
-            <table class="table table-carrinho bg-white rounded-4">
+            <table class="bg-neutro table-carrinho w-100 mb-3">
                 <thead>
-                    <tr class="bg-neutro">
+                    <tr class="">
                         <th scope="col"></th>
                         <th scope="col">Produto</th>
                         <th scope="col">Preço</th>
@@ -53,33 +53,35 @@
         <div class="row py-5">
             <div class="col-md-5 col-12 offset-md-7">
                 <h3 class="mb-4">Total no carrinho</h3>
-                <div class="row bg-white rounded-top py-4">
-                    <div class="col-3">
-                        <h4>Subtotal</h4>
+                <div class="bg-neutro table-carrinho p-3">
+                    <div class="row bg-white rounded-top py-4">
+                        <div class="col-3">
+                            <h4>Subtotal</h4>
+                        </div>
+                        <div class="col-9">
+                            <i class="bi bi-currency-dollar me-2">1.200</i>
+                        </div>
                     </div>
-                    <div class="col-9">
-                        <i class="bi bi-currency-dollar me-2">1.200</i>
+                    <div class="row bg-white py-4">
+                        <div class="col-3">
+                            <h4>Envio</h4>
+                        </div>
+                        <div class="col-9">
+                            <p>
+                                Envio grátis<br>
+                                As opções de envio serão actualizadas<br>
+                                durante a finalização da compra.<br>
+                                <a href="#" class="text-primary">Calcular custos de envio</a>
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="row bg-white py-4">
-                    <div class="col-3">
-                        <h4>Envio</h4>
-                    </div>
-                    <div class="col-9">
-                        <p>
-                            Envio grátis<br>
-                            As opções de envio serão actualizadas<br>
-                            durante a finalização da compra.<br>
-                            <a href="#" class="text-primary">Calcular custos de envio</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="row bg-white py-4">
-                    <div class="col-3">
-                        <h4>Total</h4>
-                    </div>
-                    <div class="col-9">
-                        <i class="bi bi-currency-dollar fw-bold me-2">1.200</i>
+                    <div class="row bg-white py-4">
+                        <div class="col-3">
+                            <h4>Total</h4>
+                        </div>
+                        <div class="col-9">
+                            <i class="bi bi-currency-dollar fw-bold me-2">1.200</i>
+                        </div>
                     </div>
                 </div>
                 <button class="btn-finalizar w-100 mt-3 py-3 ">Finalizar compra</button>

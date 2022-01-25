@@ -73,7 +73,7 @@
 
             <div class="col-md-4 col-12">
                 <h3>A sua encomenda</h3>
-                <div class="mt-4 bg-white rounded p-4">
+                <div class="mt-4 bg-white rounded-5 p-4">
                     <div class="row">
                         <div class="col-6 mb-5">
                             <p class="fw-bold">Produto</p>
@@ -91,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-2 bg-white rounded p-4">
+                <div class="mt-2 bg-white rounded-5 p-4">
                     <div class="row">
                         <div class="col-5 mb-5">
                             <p class="fw-bold">Subtotal</p>
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-white p-4 my-5 rounded">
+                <div class="bg-white p-4 my-5 rounded-5">
                     <div class="form-check mb-3">
                         <input class="form-check-input" type="radio" name="formaPagamento" id="pagamentoTransferencia" checked>
                         <label class="form-check-label" for="pagamentoTransferencia">
@@ -137,7 +137,7 @@
                         <span><img src="/images/amex.png" alt=""></span>
                     </div>
                 </div>
-                <div class="bg-white p-4 rounded">
+                <div class="bg-white p-4 rounded-5">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="infoProdutos">
                         <label class="form-check-label" for="infoProdutos">
