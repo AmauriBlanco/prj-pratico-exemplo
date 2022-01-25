@@ -9,22 +9,22 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-lg-block text-start">
+                    <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption k text-start">
                         <h1 class="carousel-text">Tecnologia acessível <br> num só sítio</h5>
                         <button class="btn-grey  mt-4">Ver mais</button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-lg-block text-start">
+                    <div class="carousel-caption text-start">
                         <h1 class="carousel-text">Tecnologia acessível<br> num só sítio</h5>
                         <button class="btn-grey mt-4">Ver mais</button>
                  </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-lg-block text-start">
+                    <div class="carousel-caption text-start">
                         <h1 class="carousel-text">Tecnologia acessível<br> num só sítio</h5>
                         <button class="btn-grey mt-4">Ver mais</button>
                     </div>

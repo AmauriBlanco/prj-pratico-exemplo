@@ -36,17 +36,17 @@
                 </tbody>
             </table>
         </div>
-        <div class="row mb-5">
-            <div class="col">
-                <form class="search-area rounded-3 p-3">
-                    <input  placeholder="Código do Cupom" aria-label="search">
+        <div class="row align-items-md-center mb-5">
+            <div class="col-6 col-md-4">
+                <form class="search-area bg-white rounded-3 p-3">
+                    <input class="bg-white w-100" placeholder="Código do Cupom" aria-label="search">
                 </form>
             </div>
-            <div class="col">
-                <button class="btn-card bg-transparent text-dark fw-bold">Aplicar Cupom</button>
+            <div class="col-6 col-md-3 ps-0">
+                <button class="btn-carrinho bg-transparent d-block mx-auto mx-md-0 text-nowrap">Aplicar Cupom</button>
             </div>
-            <div class="col offset-lg-5">
-                <button class="btn-card bg-transparent text-dark fw-bold">Atualizar carrinho</button>
+            <div class="col-md-4 offset-md-1 mt-5 mt-md-0 ">
+                <button class="btn-carrinho bg-transparent d-block mx-auto mx-md-0 text-nowrap ">Atualizar carrinho</button>
             </div>
         </div>
 
@@ -74,7 +74,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row bg-white rounded-bottom py-4">
+                <div class="row bg-white py-4">
                     <div class="col-3">
                         <h4>Total</h4>
                     </div>
@@ -82,7 +82,7 @@
                         <i class="bi bi-currency-dollar fw-bold me-2">1.200</i>
                     </div>
                 </div>
-                <button class="btn-card w-100 mt-3">Finalizar compra</button>
+                <button class="btn-finalizar w-100 mt-3 py-3 ">Finalizar compra</button>
 
             </div>
         </div>

@@ -6633,8 +6633,9 @@ progress {
   color: #fff;
   background-color: #303134;
   font-weight: 500;
-  padding: 10px 30px;
+  padding: 15px 30px;
   border-radius: 10px;
+  border: none;
 }
 
 .btn-card:hover {
@@ -6643,6 +6644,26 @@ progress {
 
 .btn-card:focus {
   background-color: #494949;
+}
+
+.btn-carrinho {
+  font-size: 18px;
+  font-weight: 600;
+  color: #303134;
+  padding: 10px 30px;
+  border-color: #30313496;
+  border-radius: 9px;
+  background-color: transparent;
+}
+
+.btn-finalizar {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #303134;
+  border: none;
+  outline: none;
+  border-radius: 9px;
 }
 
 input[type=range] {
@@ -6778,6 +6799,7 @@ input:focus-visible {
 
 .navbar .nav-item .nav-link {
   color: #979696;
+  border-bottom: 3px solid #fff;
 }
 
 .navbar .nav-item .nav-link:hover {
@@ -6793,22 +6815,16 @@ input:focus-visible {
   border-radius: 5px;
 }
 
-.filter-page {
-  margin-left: 50px;
-  margin-right: 200px;
-  margin-bottom: 0;
+.filter {
+  font-size: 12px;
 }
 
-@media (max-width: 991.98px) {
-  .filter-page {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-  }
+.filtro-categoria {
+  font-size: 16px;
 }
 
 .color-select, .categoria-prod, .categoria-descricao {
-  margin-top: 45px;
+  margin-top: 80px;
 }
 
 .carousel-detalhe .carousel-indicators {
@@ -6819,12 +6835,38 @@ input:focus-visible {
           justify-content: space-evenly;
 }
 
+.detalhe-iphone h2, .detalhe-iphone .h2 {
+  font-size: 28px;
+}
+
+.categoria-descricao {
+  font-size: 16px;
+}
+
 .carousel-detalhe .carousel-indicators [data-bs-target] {
   width: auto;
 }
 
 .relacionados-detalhe {
   margin-bottom: 150px;
+}
+
+@media (max-width: 1400px) {
+  .color-select, .categoria-prod, .categoria-descricao {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .color-select, .categoria-prod, .categoria-descricao {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .color-select, .categoria-prod, .categoria-descricao {
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -6860,6 +6902,12 @@ input:focus-visible {
   padding: 30px 10px;
 }
 
+@media (max-width: 576px) {
+  .table-carrinho th, .table-carrinho td {
+    padding: 30px 5px;
+  }
+}
+
 .bg-alert-blue {
   background-color: #C3CFED;
   padding: 0;
@@ -6884,6 +6932,30 @@ input:focus-visible {
   margin-bottom: 150px;
 }
 
+.cadastro-section input {
+  border: none;
+}
+
+.cadastro-section input::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #CBCED1;
+}
+
+.cadastro-section input:-ms-input-placeholder {
+  font-size: 16px;
+  color: #CBCED1;
+}
+
+.cadastro-section input::-ms-input-placeholder {
+  font-size: 16px;
+  color: #CBCED1;
+}
+
+.cadastro-section input::placeholder {
+  font-size: 16px;
+  color: #CBCED1;
+}
+
 @media (max-width: 991.98px) {
   .cadastro-section {
     margin-bottom: 50px;
@@ -6891,7 +6963,7 @@ input:focus-visible {
 }
 
 .bg-paper {
-  background-image: url("../../../images/Subtract.svg");
+  background-image: url("../../../images/Subtract.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0;
@@ -6947,8 +7019,12 @@ input[type=number]::-webkit-inner-spin-button {
   margin-top: -20px;
 }
 
+.carousel-home .carousel-inner, .carousel-home .carousel-item, .carousel-home .active {
+  height: 500px;
+}
+
 .carousel-home .carousel-caption {
-  padding-bottom: 180px;
+  padding-bottom: 80px;
 }
 
 .carousel-home .carousel-indicators [data-bs-target] {
@@ -6989,5 +7065,38 @@ input[type=number]::-webkit-inner-spin-button {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1200px) {
+  .carousel-home .carousel-inner, .carousel-home .carousel-item, .carousel-home .active, .carousel-home img {
+    height: 450px;
+  }
+  .carousel-text {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-home .carousel-inner, .carousel-home .carousel-item, .carousel-home .active, .carousel-home img {
+    height: 400px;
+  }
+  .carousel-text {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 567px) {
+  .carousel-home .carousel-inner, .carousel-home .carousel-item, .carousel-home .active, .carousel-home img {
+    height: 290px;
+  }
+  .carousel-text {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .carousel-home .carousel-caption {
+    padding-bottom: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

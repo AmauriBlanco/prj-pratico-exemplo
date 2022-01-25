@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-8 col-12 px-5">
                 <h3>Cadastro da compra </h3>
-                <form class="row g-4">
+                <form class="row g-4 ">
                     <div class="col-md-6">
                         <label for="cadastroNome" class="form-label">Nome <span class="text-primary">*</span></label>
                         <input type="text" class="form-control form-control-lg rounded-5" id="cadastroNome">
@@ -58,7 +58,7 @@
                     </div>
                     <div class="mt-5 mb-3">
                         <label for="cadastroObservacao" class="form-label">Observações(opcional)</label>
-                        <textarea class="form-control rounded-5" id="cadastroObservacao" rows="5"></textarea>
+                        <textarea class="form-control rounded-5 border-0" id="cadastroObservacao" rows="5"></textarea>
                     </div>
                 </div>
                 <div class="col-12">
@@ -153,7 +153,7 @@
                             Eu li e aceito os <a href="#" class="text-primary fw-bold">termos e condições</a> da loja *
                         </label>
                     </div>
-                    <button class="btn-card w-100 py-3 mt-2">Finalizar encomenda</button>
+                    <button class="btn-card w-100 py-3 mt-2 border-0">Finalizar encomenda</button>
                 </div>
             </div>
         </div>

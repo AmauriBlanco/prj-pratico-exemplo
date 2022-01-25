@@ -4,17 +4,10 @@
     border-radius: 5px;
 }
 
-.filter-page {
-    margin-left: 50px;
-    margin-right:200px;
-    margin-bottom: 0;
+.filter {
+    font-size: 12px;
 }
 
-
-@media(max-width: 991.98px) {
-    .filter-page {
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 0;
-    } 
+.filtro-categoria {
+    font-size: 16px;
 }

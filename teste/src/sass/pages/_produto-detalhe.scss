@@ -1,5 +1,5 @@
 .color-select, .categoria-prod, .categoria-descricao {
-    margin-top: 45px;
+    margin-top: 80px;
 }
 
 .carousel-detalhe .carousel-indicators {
@@ -8,12 +8,40 @@
     justify-content: space-evenly;
 }
 
+.detalhe-iphone h2 {
+    font-size: 28px;
+}
+
+.categoria-descricao {
+    font-size: 16px;
+}
+
 .carousel-detalhe .carousel-indicators [data-bs-target] {
     width: auto;
 }
 
 .relacionados-detalhe {
     margin-bottom: 150px;
+}
+
+
+
+@media(max-width: 1400px) {
+    .color-select, .categoria-prod, .categoria-descricao {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .color-select, .categoria-prod, .categoria-descricao {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 992px) {
+    .color-select, .categoria-prod, .categoria-descricao {
+        margin-top: 0;
+    }
 }
 
 @media(max-width: 768px) {

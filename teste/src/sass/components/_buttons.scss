@@ -2,8 +2,9 @@
     color: #fff;
     background-color: $bg-button;
     font-weight: 500;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-radius: 10px;
+    border: none;
 }
 
 .btn-card:hover {
@@ -13,4 +14,24 @@
 .btn-card:focus {
     background-color: #494949;
   
+}
+
+.btn-carrinho {
+    font-size: 18px;
+    font-weight: 600;
+    color: #303134;
+    padding: 10px 30px;
+    border-color: #30313496;
+    border-radius: 9px;
+    background-color: transparent;
+}
+
+.btn-finalizar {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #303134;
+    border: none;
+    outline: none;
+    border-radius: 9px;
 }

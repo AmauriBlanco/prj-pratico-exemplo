@@ -24,7 +24,7 @@
                 </div>
             </div>
           </div>
-        <nav class="navbar navbar-expand-lg mt-5 navbar-light ">
+        <nav class="navbar navbar-expand-lg mt-5 pb-3 navbar-light ">
             <div class="container ps-0">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,19 +32,19 @@
               <div class="collapse navbar-collapse justify-content-between fw-bold" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link px-0 me-3 ms-3 ms-md-0" href="#">Home</a>
+                    <a class="nav-link px-0 pb-0 me-3 ms-3 ms-md-0" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="#">Sobre Nós</a>
+                    <a class="nav-link px-0 mx-3  pb-0" href="#">Sobre Nós</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="../src/pages/loja.php">Loja</a>
+                    <a class="nav-link px-0 mx-3  pb-0" href="../src/pages/loja.php">Loja</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="#">Contatos</a>
+                    <a class="nav-link px-0 mx-3  pb-0" href="#">Contatos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link px-0 mx-3" href="#">A minha conta</a>
+                    <a class="nav-link px-0 mx-3  pb-0" href="#">A minha conta</a>
                   </li>
                 </ul>
               </div>
