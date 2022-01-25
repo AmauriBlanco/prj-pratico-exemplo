@@ -11,3 +11,14 @@
 .filtro-categoria {
     font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    .filter-range {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 9px;
+        & input {
+            width: 80%;
+        }
+    }
+}

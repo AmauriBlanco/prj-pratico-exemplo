@@ -6799,12 +6799,13 @@ input:focus-visible {
 
 .navbar .nav-item .nav-link {
   color: #979696;
-  border-bottom: 3px solid #fff;
+  border-bottom: 4px solid #fff;
+  padding-bottom: 1rem;
 }
 
 .navbar .nav-item .nav-link:hover {
   color: #F2003B;
-  border-bottom: 3px solid #F2003B;
+  border-bottom: 4px solid #F2003B;
   -webkit-transition: .2s;
   transition: .2s;
 }
@@ -6823,8 +6824,19 @@ input:focus-visible {
   font-size: 16px;
 }
 
+@media (max-width: 768px) {
+  .filter-range {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 9px;
+  }
+  .filter-range input {
+    width: 80%;
+  }
+}
+
 .color-select, .categoria-prod, .categoria-descricao {
-  margin-top: 80px;
+  margin-top: 120px;
 }
 
 .carousel-detalhe .carousel-indicators {
@@ -6853,19 +6865,19 @@ input:focus-visible {
 
 @media (max-width: 1400px) {
   .color-select, .categoria-prod, .categoria-descricao {
-    margin-top: 50px;
+    margin-top: 95px;
   }
 }
 
 @media (max-width: 1200px) {
   .color-select, .categoria-prod, .categoria-descricao {
-    margin-top: 30px;
+    margin-top: 60px;
   }
 }
 
 @media (max-width: 992px) {
   .color-select, .categoria-prod, .categoria-descricao {
-    margin-top: 0;
+    margin-top: 20px;
   }
 }
 
@@ -6892,6 +6904,10 @@ input:focus-visible {
 
 .bg-neutro {
   background-color: #fff;
+}
+
+tr td {
+  vertical-align: middle;
 }
 
 .table > :not(:first-child) {

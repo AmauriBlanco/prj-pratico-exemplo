@@ -38,7 +38,7 @@
     <section>
         <div class="container mt-5">
             <div class="row">
-                <div class="order-md-1 col-12 col-md-4 d-flex flex-column filter-range mb-5 mb-md-3 filtro-categoria order-2 order-md-0">
+                <div class="order-md-1 col-12 col-md-3 d-flex flex-column filter-range mb-5 mb-md-3 filtro-categoria order-2 order-md-0">
                     <label for="priceFilter" class="form-label fw-bold">Filtrar por preço</label>
                     <input type="range" class="mt-2 " id="priceFilter" min="0" max="10000" step="1">
                     <p class="mb-4 mt-2 text-muted fs-6">Preço: <i class="bi bi-currency-dollar me-2"></i>20 -  <i class="bi bi-currency-dollar me-2"></i>1399</p>

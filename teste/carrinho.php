@@ -37,16 +37,16 @@
             </table>
         </div>
         <div class="row align-items-md-center mb-5">
-            <div class="col-6 col-md-4">
+            <div class="col-6 col-md-2">
                 <form class="search-area bg-white rounded-3 p-3">
                     <input class="bg-white w-100" placeholder="Código do Cupom" aria-label="search">
                 </form>
             </div>
-            <div class="col-6 col-md-3 ps-0">
-                <button class="btn-carrinho bg-transparent d-block mx-auto mx-md-0 text-nowrap">Aplicar Cupom</button>
+            <div class="col-6 col-md-2 ps-0">
+                <button class="btn-carrinho bg-transparent d-block mx-auto mx-md-0 text-nowrap h-100 w-100">Aplicar Cupom</button>
             </div>
-            <div class="col-md-4 offset-md-1 mt-5 mt-md-0 ">
-                <button class="btn-carrinho bg-transparent d-block mx-auto mx-md-0 text-nowrap ">Atualizar carrinho</button>
+            <div class="col-md-4 offset-md-4 mt-5 mt-md-0 d-md-flex justify-content-md-end">
+                <button class="btn-carrinho bg-transparent mx-auto d-block mx-md-0 text-nowrap ">Atualizar carrinho</button>
             </div>
         </div>
 

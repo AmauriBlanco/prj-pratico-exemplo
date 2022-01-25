@@ -15,11 +15,12 @@ input:focus-visible {
 
 .navbar .nav-item .nav-link {
     color: #979696;
-    border-bottom: 3px solid #fff
+    border-bottom: 4px solid #fff;
+    padding-bottom: 1rem;
 }
 
 .navbar .nav-item .nav-link:hover {
     color: $primary;
-    border-bottom: 3px solid $primary;
+    border-bottom: 4px solid $primary;
     transition: .2s;
 }

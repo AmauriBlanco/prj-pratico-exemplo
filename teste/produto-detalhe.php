@@ -12,8 +12,8 @@
     </div>
     <section>
         <div class="container">
-            <div class="row ">
-                <div class="col-12 col-md-4">
+            <div class="row">
+                <div class="col-12 col-md-5">
                     <div id="carouselExampleIndicators" class="carousel slide carousel-fade carousel-detalhe">
                         <ol class="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><img src="/images/img01.png" class="d-block img-fluid" alt="..."></li>
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-8 detalhe-iphone">
+                <div class="col-12 col-md-6 detalhe-iphone ms-lg-4">
                     <h2 class="mb-4 fw-bold">Apple iPhone 12 64gb</h2>
                     <i class="bi bi-currency-dollar me-2">1.200</i>
                     <form class="color-select">
@@ -61,7 +61,7 @@
 
             </div>
             <div class="row categoria-descricao">
-                <div class="col-4">
+                <div class="col-5">
                     <div class="d-flex justify-content-between">
                         <p>Descrição</p>
                         <i class="bi bi-caret-right"></i>
@@ -72,7 +72,7 @@
                     <p class="text-muted">Avaliações(0)</p>
                     <hr>
                 </div>
-                <div class="col-md-6 col-8">
+                <div class="col-md-6 col-7 ms-lg-4">
                     <h3 class="mb-4">Descrição</h3>
                     <p>
                         Ecrã diagonal: 15,5 cm (6.1″), 2532×1170 pixels, OLED. Modelo de processador: A14. Armazenamento interno: 64 GB. Câmara traseira: 12MP, dupla. SO instalado: iOS 14. Iva incluído.
