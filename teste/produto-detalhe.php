@@ -51,7 +51,7 @@
                     </form>
                     <div class="my-3 row">
                         <input class="ms-3 col-1 rounded-3 border-0" placeholder="1" type="number">
-                        <button class="col-3 ms-2 btn-card">Adicionar</button>
+                        <a href="carrinho.php" class="col-3"><button class="ms-2 btn-card">Adicionar</button></a>
                     </div>
                     <div class="categoria-prod">
                         <p class="text-muted">Ref: N/D</p>

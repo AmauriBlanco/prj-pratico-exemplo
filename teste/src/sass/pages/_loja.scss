@@ -8,8 +8,16 @@
     font-size: 12px;
 }
 
-.filtro-categoria {
-    font-size: 16px;
+.filtro-categoria a, .filtro-categoria p {
+    font-size: 14px;
+}
+
+.text-muted {
+    font-size: 12px;
+}
+
+.ordenacao {
+    width: 200px;
 }
 
 @media (max-width: 768px) {

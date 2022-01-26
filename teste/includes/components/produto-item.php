@@ -5,7 +5,7 @@
         <div class="card-body pt-0">
             <h5 class="card-title mt-3">iPhone X</h5>
             <p class="card-text">€900 - €1.100</p>
-            <button class="btn btn-secondary btn-card">Ver opções</button>
+            <a href="../../produto-detalhe.php"><button class="btn btn-secondary btn-card">Ver opções</button></a>
         </div>
     </div>
 </div>

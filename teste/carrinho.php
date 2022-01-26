@@ -84,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn-finalizar w-100 mt-3 py-3 ">Finalizar compra</button>
+                <a href="finalizar-compras.php"><button class="btn-finalizar w-100 mt-3 py-3 ">Finalizar compra</button></a>
 
             </div>
         </div>

@@ -153,7 +153,7 @@
                             Eu li e aceito os <a href="#" class="text-primary fw-bold">termos e condições</a> da loja *
                         </label>
                     </div>
-                    <button class="btn-card w-100 py-3 mt-2 border-0">Finalizar encomenda</button>
+                    <a href="recebido.php"><button class="btn-card w-100 py-3 mt-2 border-0">Finalizar encomenda</button></a>
                 </div>
             </div>
         </div>

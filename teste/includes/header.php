@@ -54,7 +54,7 @@
               <div class="d-flex align-items-center">
                 <i class="bi bi-currency-dollar me-2">0,00</i>
                 <p class="my-0 mx-2"> 0 itens</p>
-                <i class="bi bi-cart4"></i>
+                <a href="../../carrinho.php" class="text-dark"><i class="bi bi-cart4"></i></a>
               </div>
             </div>
           </nav>
